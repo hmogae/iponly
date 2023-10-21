@@ -16,7 +16,7 @@ def extract_ips_from_file(filename):
 
 filename = 'input.txt'
 rfilename = generate_random_id(8)
-output_filename = f'{rfilename}-output.txt'
+output_filename = f'./data/{rfilename}-output.txt'
 ips = extract_ips_from_file(filename)
 
 with open(output_filename, 'w') as output_file:
